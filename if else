@@ -1,0 +1,13 @@
+public class ifelse {
+   	public static void main(String[] args) {
+	int v=18;
+	if(v>=18) {
+		System.out.println("the voter is eligible");
+	}
+else{
+    System.out.println("the voter is not eligible");
+}
+	}
+
+}
+ 
