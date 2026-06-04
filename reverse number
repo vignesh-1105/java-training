@@ -1,0 +1,19 @@
+public class reversenumber {
+    public static void main(String[] args) {
+        int[] arr = {3,23,45,67,89,10};
+        int k = arr.length;
+        int[] newArr = new int[k];
+        int count = 0;
+
+        for (int i = k - 1; i >= 0; i--) {
+            newArr[count] = arr[i];
+            count++;
+        }
+
+        System.out.print("Reversed array: ");
+        for (int value : newArr) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+    }
+}
